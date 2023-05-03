@@ -1,0 +1,51 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+.menu {
+    background-color: aqua;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+.title {
+    float: left;
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    float: right;
+}
+.profile {
+    padding-top: 70px;
+    margin: 5px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.profile img {
+    border: solid 5px;
+    border-radius: 10px;
+    border-color:purple;
+}
+
+.profile h2 {
+    color:aqua;
+    margin: 5px;
+}
+.profile h4 {
+    color: rebeccapurple;
+    margin: 20px;
+}
+
+.description {
+    border: solid 2px;
+    border-radius: 7px;
+    padding: 5px 0px 5px 0px;
+    margin-top: 20px;
+}
